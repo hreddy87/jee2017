@@ -64,7 +64,7 @@ sum=0
 
 #filelocation where you want to store the csv
 file = open(r"C:/Users/harshith reddy/F1itjeeMains2017.csv", "w")
-for index in range(380):
+for index in range(381):
 
     soup = BeautifulSoup(instant.present_html, "html.parser")
 
