@@ -52,7 +52,7 @@ class FitjeeRankListRetriever:
             self.page+=1
         else:
             raise Exception("Button not found")
-        time.sleep(1)
+        time.sleep(2)
 
 
         self.present_html=self.driver.execute_script("return document.getElementsByTagName('html')[0].innerHTML")
